@@ -4,6 +4,7 @@ import { useState } from 'react';
 
 function Weather(props) {
 	const { userInfo, setInfo } = props;
+
 	const [name, setName] = useState('defName');
 	return (
 		<div>
